@@ -1,0 +1,13 @@
+train: C:/Users/adity/Downloads/capstone yolo/PKlot.v2-pklot-new.yolov11/train/images
+val: C:/Users/adity/Downloads/capstone yolo/PKlot.v2-pklot-new.yolov11/valid/images
+test: C:/Users/adity/Downloads/capstone yolo/PKlot.v2-pklot-new.yolov11/test/images
+
+nc: 2
+names: ['empty', 'occupied']
+
+roboflow:
+  workspace: idan-avivi-dsvz2
+  project: pklot-dgtl0
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/idan-avivi-dsvz2/pklot-dgtl0/dataset/2
